@@ -1,0 +1,3 @@
+services:
+  cloudops-agent:
+    image: ${CLOUDOPS_IMAGE:?Set CLOUDOPS_IMAGE to your ECR image URI}
